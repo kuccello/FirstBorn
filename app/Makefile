@@ -1,0 +1,3 @@
+d:
+	node app.js
+

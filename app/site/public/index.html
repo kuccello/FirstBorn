@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Foo</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        // http://localhost:9999/
+        
+        $().ready(function() {
+            //            $.get('http://localhost:9999/', function(data) {
+            //                $('.result').html(data);
+            //                alert('Load was performed.');
+            //            });
+            $.ajax({
+                url: "http://localhost:9999/",
+                dataType: 'jsonp',                
+                success: function(data) {
+                $('.result').html(data);
+            }});
+        });
+    </script>
+</head>
+<body>
+<div class="result">
+    HERE GOES....
+</div>
+</body>
+</html>

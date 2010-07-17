@@ -1,0 +1,15 @@
+X Setup directory structure
+X Hello World running
+* HAML templates working
+* Connect to a database
+  * CouchDB
+  * SQLite
+* Login/Logout (Admin)
+* Add admin
+* Edit admin
+* Send emails
+* Add Lesson
+  * Upload image
+* Edit Lesson
+  * Upload multiple images
+* Communicate with blip.tv?
